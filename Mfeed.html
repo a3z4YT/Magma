@@ -4,36 +4,87 @@
 <title>feedback</title>
 </head>
 <center>
+    <style>
+        .CHB1{
+            color: red;
+            font-family: Arial Rounded MT;
+            font-size: 100px;
+        }
+        .CHB2{
+            color: rgb(246, 169, 26);
+            font-family: Arial Rounded MT;
+            font-size: 100px;
+        }
+        .CHB3{
+            color: #deb307;
+            font-family: Arial Rounded MT;
+            font-size: 100px;
+        }
+        .CHB4{
+            color: lime;
+            font-family: Arial Rounded MT;
+            font-size: 100px;
+        }
+        .CHB5{
+            color: green;
+            font-family: Arial Rounded MT;
+            font-size: 100px;
+        }
+
+    @media screen and (max-width: 600px){
+        .CHB1{
+            color: red;
+            font-size: 100px;
+        }
+        .CHB2{
+            color: rgb(246, 169, 26);
+            font-size: 100px;
+        }
+        .CHB3{
+            color: #deb307;
+            font-size: 100px;
+        }
+        .CHB4{
+            color: lime;
+            font-size: 400px;
+        }
+        .CHB5{
+            color: green;
+            font-size: 500px;
+        }
+    }
+    </style>
 <body>
 <font size = "15">
 
-<form action="/action_page.php">
+    <br><br>
 
+<form action="/action_page.php">
 <tr><td>
 <table border = "0"cellpadding = "10" style = "background-color:white; border-radius:25px;">
 
 <td>
-<input type = "radio" id = "checkb" name = "choose"><font color = "red" required ><b>1/5</b></font></input>
+<input type = "radio" id = "checkb" name = "choose" required><b class="CHB1">1/5</b></input>
 </td>
 <tr>
 <td>
 <hr>
-<input type = "radio" id = "checkb" name = "choose"><font color = "orange" required ><b>2/5</b></font></input>
+<input type = "radio" id = "checkb" name = "choose" required ><b class="CHB2">2/5</b></input>
 </td>
 <tr>
 <td>
 <hr>
-<input type = "radio" id = "checkb" name = "choose"><font color = "#deb307" required ><b>3/5</b></font></input>
+<input type = "radio" id = "checkb" name = "choose" required ><b class="CHB3">3/5</b></input>
 </td>
 <tr>
 <td>
 <hr>
-<input type = "radio" id = "checkb" name = "choose"><font color = "lime" required ><b>4/5</b></font></input>
+<input type = "radio" id = "checkb" name = "choose" required><b class="CHB4">4/5</b></input>
 </td>
 <tr>
 <td>
 <hr>
-<input type = "radio" id = "checkb" name = "choose"><font color = "green" required ><b>5/5</b></font></input>
+<input type = "radio" id = "checkb" name = "choose" required ><b class="CHB5">5/5</b></input>
 
 </td>
 </table>
@@ -44,14 +95,14 @@
 
 <tr><td>
 <table border = "0" cellpadding = "1" style = "background-color:white; border-radius:10px;">
-<td><textarea style = "border-color:white; border-radius:5px;" cols = "25" rows = "10" placeholder = "enter your comment here!"></textarea>
+<td><textarea style = "border-color:white; border-radius:5px;" cols = "45" rows = "15" placeholder = "enter your comment here!"></textarea>
 </table>
 </td></tr>
 <br>
 
 
 <a href = "thanku.html">
-<button style = "color:black; border-radius:25px; border:0;background-color:lime;font-family:'Brush Script MT', cursive;"><font size = "10">submit</font></button>
+<button style = "color:black; border-radius:25px; border:0;background-color:lime;font-family:'Brush Script MT', cursive;"><font size = "20">submit</font></button>
 </a>
 
 <body bgcolor = "#4b39e6">
