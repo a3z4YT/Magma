@@ -1,65 +1,85 @@
 <!DOCType html>
 <html>
 <head>
-	<!---- ICON ------>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!---- ICON ------>
 <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/android-chrome-192x192.png">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/android-chrome-512x512.png">
 <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
 <!-----		icon.end	----->
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>order</title>
+
+<style>
+	.ttabble{
+		border:0;
+		background-color:#b1b3b575;
+		font-size:10;
+	}
+	.cor{
+		border-radius:10px;
+	}
+	.btn{
+		border:transparent;
+		border-color:transparent;
+		background-color:transparent;
+		font-family: 'Courier New', monospace;
+	}
+	.fonnnt{
+		border-color:#e0e0d5;
+		border-radius:10px;
+	}
+	.veri{
+		background-color:white;
+		font-family:OCR A Std, monospace;
+	}
+	.subm{
+		background-color:#535557;
+		color:#d3dae6;
+		border-color:#535557;
+	}
+	select{
+		border-radius: 10px;
+	}
+	
+	@media screen and (max-width: 600px) {	}	
+	
+	@media screen and (max-width: 900px){	}
+	</style>
+
 </head>
 <body>
 <center>
 
-<style>
-.ttabble{
-	border:0;
-	background-color:#b1b3b5;
-	font size:10;
-}
-.cor{
-	border-radius:10px;
-}
-.btn{
-	border:transparent;
-	border-color:transparent;
-	background-color:transparent;
-	font-family: 'Courier New', monospace;
-}
-.fonnnt{
-	border-color:#e0e0d5;
-	border-radius:10px;
-}
-.veri{
-	background-color:white;
-	font-family:OCR A Std, monospace;
-}
-.subm{
-	background-color:#535557;
-	color:#d3dae6;
-	border-color:#535557;
-}
-</style>
-
 <!----- Location ------->
 <br><br>
 <tr><td>
-<table border = "0" cellpadding = "15" style = "background-color:#535557;border-radius:15px;">
+<table border = "0" cellpadding = "15" style = "background-color:#4d4e4f;border-radius:15px;">
 <td>
 <font size = "10" style = "font-family: Trebuchet MS, Helvetica, sans-serif; color:#8da1ba;"><b>LOCATION</b><hr></font><form = action="/action_page.php"><font size = "3">
-<input type = "text" placeholder = "enter your name"class = "fonnnt" required></input>
+<input type = "text" placeholder = "enter your name"class = "fonnnt" name = "username" required></input>
 <br><br>
-<textarea col = "10" rows = "5" class = "fonnnt" placeholder = "enter your location" required></textarea>
+<textarea col = "10" rows = "5" class = "fonnnt" placeholder = "enter your location" name="location" required></textarea>
 <br><br>
 <textarea col = "5" rows = "3" class = "fonnnt" placeholder = "near by" required></textarea>
 <br><br>
-<input type = "number" placeholder = "enter your phone number" class = "fonnnt" required></input>
+<input type = "number" placeholder = "enter your phone number" class = "fonnnt" name="number" required></input>
 <br><br>
 <input type = "email" id = "email" class = "fonnnt"placeholder = "enter your email" required></input>
+<br><br>
+<select>
+	<option>--Quantity--</option>
+	<option>2 plane</option>
+	<option>3 plane</option>
+	<option>4 plane</option>
+	<option>5 plane</option>
+	<option>10 plane</option>
+	<option>15 plane</option>
+	<option>20 plane</option>
+	<option>25 plane</option>
+</select>
 
-</form></font>
+</form>
 
 </td>
 </table>
@@ -69,7 +89,7 @@
 <br><br>
 
 <tr><td>
-<table border = "0" cellpadding = "15" style = "background-color:#535557;border-radius:15px;">
+<table border = "0" cellpadding = "15" style = "background-color:#4d4e4f;border-radius:15px;">
 <td>
 <font size = "10" style = "font-family: Trebuchet MS, Helvetica, sans-serif; color:#c2d6f0"><b>Payment</b><hr></font><form = action="/action_page.php">
 
@@ -88,7 +108,7 @@
 <br><br>
 
 <tr><td>
-<table border = "0" cellpadding = "15" style = "background-color:#535557;border-radius:15px;">
+<table border = "0" cellpadding = "15" style = "background-color:#4d4e4f;border-radius:15px;">
 <td>
 <font size = "10" style = "font-family: Trebuchet MS, Helvetica, sans-serif; color:#a4c0ed"><b><pre> verify</pre></b><hr></font>
 <form = action="/action_page.php">
